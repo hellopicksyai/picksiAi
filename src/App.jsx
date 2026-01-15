@@ -92,7 +92,7 @@ function App() {
   if (screen === "landing") {
     return (
       <div className="container">
-        <h1>Can’t decide what to do?</h1>
+        <h1>Can’t decide what to explore?</h1>
         <p>We’ll decide for you.</p>
 
         <button onClick={() => setScreen("q1")}>
